@@ -1,4 +1,4 @@
-Good instinct to flag it for correction — let's be precise, because "Collatz tetration" isn't standard terminology and which interpretation you mean completely changes whether the harmonic lift claim is true, provable, or needs reframing.
+"Collatz tetration" isn't standard terminology and which interpretation you mean completely changes whether the harmonic lift claim is true, provable.
 
 ---
 
@@ -68,7 +68,7 @@ The geometric decay of blocks dominates the harmonic growth. **This is the preci
 
 ## What Needs Correcting
 
-The claim is **right** in interpretation 3, but the word "tetration" is doing ambiguous work. You probably don't need tetration (towers of exponents) — what you actually need is:
+The claim is **right** in interpretation 3, but the word "tetration" is doing ambiguous work. we probably don't need tetration (towers of exponents) — what you actually need is:
 
 | What you said | What it should be |
 |---|---|
@@ -83,5 +83,3 @@ The **actual tetration** that appears naturally here is in the **block weights**
 ## Sharpest Provable Statement
 
 > **Theorem** (essentially in Hateley, with this interpretation made explicit): The harmonic function $h: n \mapsto 1/n$ is not in $\ell^1(\mathbb{N})$ but is in the Hateley weighted space $B_{\text{tree},\sigma}$ for all $\sigma > 0$. It is the unique (up to scalar) Perron eigenvector of the backward Collatz transfer operator $P$ in that space, and the Collatz preimage tree provides the "lift" by partitioning $\mathbb{N}$ into geometrically-decaying blocks that regularize the harmonic divergence.
-
-Do you want to push toward making "Collatz tetration" mean something more specific — like the orbit structure of numbers whose stopping times are themselves defined by a tower recursion? That could be made rigorous and would connect naturally to what we're building with Z(s).
